@@ -3,16 +3,13 @@ import { init } from "./walletExtension";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
-    <a href="https://playwright.dev/" target="_blank">
-      <img src="/playwright.png" class="logo" alt="Playwright logo" />
-    </a>
+
     <a href="https://www.coinbase.com/wallet/" target="_blank">
       <img src="/coinbase.png" class="logo" alt="Playwright logo" />
     </a>
-    <a href="https://metamask.io/" target="_blank">
-      <img src="/metamask.webp" class="logo" alt="Playwright logo" />
-    </a>
-    <h1>dAppwright test dApp</h1>
+    <img src="/hardhat.png" class="logo" alt="hardhat logo" />
+
+    <h1>Wallet + Hardhat Integration</h1>
     <div class="card">
     <div>
       <button id="connect-button">Connect Wallet</button>
